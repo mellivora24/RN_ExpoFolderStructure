@@ -1,5 +1,5 @@
 # React Native - Expo Folders Structure
-
+~~~ssh
 code-base/
 ├── .expo/
 ├── .expo-shared/
@@ -27,16 +27,17 @@ code-base/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+~~~
 
 # Explain
 
-There files are auto create and update [Can change]:
+## There files are auto create and update [Can change]:
     .expo/
     .expo-shared/
     .node-modules/
     .gitignore
 
-Some folder:
+## Some folder:
     assets:
         - images:
         - fonts:
@@ -51,6 +52,6 @@ Some folder:
         - utlis      => contain utility functions
         - api        => fetch APIs and collect data
 
-Some files:
+## Some files:
     app.json => config for your app (like: name, version, icon,...)
     App.tsx  => Like main# MyNewRepo
